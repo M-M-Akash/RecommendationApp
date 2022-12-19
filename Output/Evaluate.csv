@@ -1,0 +1,3 @@
+timestamp,model,precision,recall
+2022_12_18-02_30_AM,popularity scaled_purchase_freq,0.0003065134099616,0.0002043422733077
+2022_12_18-02_32_AM,cosine quantity,0.11194912747707779,0.035492567993110596
