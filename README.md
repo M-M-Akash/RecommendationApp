@@ -74,8 +74,8 @@ You can find the implementation notebook for this phase [here](Notebook/TFRS_cli
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/recommendation-app.git
-   cd recommendation-app
+   git clone https://github.com/M-M-Akash/RecommendationApp.git
+   cd RecommendationApp
    ```
 2. Install dependencies:
    ```bash
