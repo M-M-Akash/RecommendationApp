@@ -22,6 +22,8 @@ Initially, the recommendation system was implemented using Apple's **TuriCreate*
 - Training a recommendation model.
 - Developing APIs using **FastAPI** for managing and retrieving recommendations.
 
+You can find the implementation notebook for this phase [here](Notebook/Sales_recommendation.ipynb).
+
 ### Phase 2: Neural Collaborative Filtering (NCF)
 ![System Architecture](assets/NCF.png)
 To improve recommendation quality, a more advanced **Neural Collaborative Filtering** (NCF) approach was implemented. This phase included:
@@ -34,12 +36,16 @@ To improve recommendation quality, a more advanced **Neural Collaborative Filter
   - **NeuMF Layer**: Combining GMF and MLP outputs.
   - **Output Layer**: Predicting user-item interaction probability.
 
+You can find the implementation notebook for this phase [here](Notebook/Neural_Collaborative_Filtering.ipynb).
+
 However, this approach faced a bottleneck during real-time inference, as the model struggled to deliver results quickly enough for high-performance requirements.
 
 ### Phase 3: TensorFlow Recommenders (TFRS)
 To overcome the inference bottleneck, the project migrated to **TensorFlow Recommenders** (TFRS) with **ScaNN** (Scalable Nearest Neighbors). This phase achieved:
 - **Significant Performance Improvement**: Real-time inference latency reduced to 3.35 ms ± 618 µs.
 - **Ease of Integration**: TFRS simplified the development and scaling of recommendation systems.
+
+You can find the implementation notebook for this phase [here](Notebook/TFRS_click_data.ipynb).
 
 ## Challenges and Breakthroughs
 
